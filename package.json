@@ -1,0 +1,16 @@
+{
+  "name": "laurel",
+  "version": "1.0.0",
+  "description": "A landing page template.",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w src/scss/ -o dist/css --recursive",
+    "clean": "rimraf dist/{css/*,js/*,images/*}"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
