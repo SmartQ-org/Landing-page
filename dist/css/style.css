@@ -988,14 +988,14 @@ label {
     box-shadow: 0 4px 16px rgba(6, 16, 31, 0.35); }
 
 .button-primary {
-  background-color: #f9425f; }
+  background-color: #ee6c4d; }
   .button-primary:hover {
-    background: #f94763; }
+    background: #ed603f; }
   .button-primary.button-shadow::before {
-    box-shadow: 0 8px 16px rgba(249, 66, 95, 0.25);
+    box-shadow: 0 8px 16px #ee6c4d, 1;
     mix-blend-mode: normal; }
   .button-primary.button-shadow:hover::before {
-    box-shadow: 0 8px 16px rgba(249, 66, 95, 0.35); }
+    box-shadow: 0 8px 16px #ee6c4d, 0.35; }
   .button-primary .button-sm.button-shadow::before {
     box-shadow: 0 4px 16px rgba(249, 66, 95, 0.25); }
   .button-primary .button-sm.button-shadow:hover::before {
@@ -1058,7 +1058,8 @@ label {
   /* To display elements above hero illustrations */ }
 
 .hero-paragraph {
-  margin-bottom: 32px; }
+  margin-bottom: 32px;
+  color: white; }
 
 .hero-app {
   position: relative; }
