@@ -1186,12 +1186,7 @@ label {
   outline: black;
   background-size: 100%, 100%;
   border-radius: 50%;
-  border: 1px solid black;
   background-image: none; }
-
-.carousel-control-next,
-.carousel-control-prev {
-  filter: invert(100%); }
 
 @media (min-width: 641px) {
   .features {
@@ -1408,6 +1403,9 @@ main {
 /*--------------------------------------------------------------
 # Partners Carousel
 --------------------------------------------------------------*/
+.carousel-title {
+  padding-top: 50px; }
+
 .carousel-container {
   display: flex;
   flex-direction: column;
@@ -1416,12 +1414,13 @@ main {
 .slide {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 900px;
-  height: 200px; }
+  height: 180px; }
 
 .slide-div {
   display: flex;
-  width: 300px;
+  width: 200px;
   margin: 10px 10px;
   align-items: center;
   justify-content: center; }
