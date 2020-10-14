@@ -2,7 +2,7 @@
 
 SmartQ aims to help businesses across Canada who are struggling to maintain customer satisfaction due to the new found emphasis placed on managing physical lines. To solve this issue, SmartQ utilizes innovative technology to transfer physical lines into an easy-to-manage electronic queuing system. Customers will be able to enter a virtual priority queue which also provides live positional updates. Allowing your customers liberation from the burden of physical lines and instead simply show up, walk-in, pay and leave.
 
-### [Landing page Demo] (https://smartq-org.github.io/Landing-page/)
+### [Landing page Demo](https://smartq-org.github.io/Landing-page/)
 
 ## Getting started
 * First, ensure that node.js & npm are both installed then run `npm i` in the root directory.
