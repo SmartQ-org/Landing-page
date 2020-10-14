@@ -1050,8 +1050,7 @@ label {
 .hero {
   text-align: center;
   padding-top: 48px;
-  padding-bottom: 24px;
-  height: 100vh; }
+  padding-bottom: 24px; }
 
 .hero-copy {
   position: relative;
@@ -1293,9 +1292,6 @@ label {
 /*--------------------------------------------------------------
 # Site content
 --------------------------------------------------------------*/
-.is-boxed {
-  background: #0b1524; }
-
 .body-wrap {
   background: #06101f;
   overflow: hidden;
@@ -1305,7 +1301,6 @@ label {
   min-height: 100vh; }
 
 .boxed-container {
-  max-width: 1440px;
   margin: 0 auto;
   box-shadow: 0 16px 48px rgba(6, 16, 31, 0.5); }
 
