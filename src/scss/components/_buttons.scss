@@ -77,23 +77,23 @@
 }
 
 .button-primary {
-	background-color: color(primary, 1);
+	background-color: #ee6c4d;
 
     &:hover {
-        background: lighten(color(primary, 1), 1%);
+        background: darken(#ee6c4d, 3%);
     }
 
     &.button-shadow {
 
         &::before {
-            box-shadow: 0 8px 16px rgba(color(primary, 1), .25);
+            box-shadow: 0 8px 16px (#ee6c4d, 1);
 			mix-blend-mode: normal;
         }
 
         &:hover {
 
             &::before {
-                box-shadow: 0 8px 16px rgba(color(primary, 1), .35);
+                box-shadow: 0 8px 16px (#ee6c4d, .35);
             }
         }
     }
